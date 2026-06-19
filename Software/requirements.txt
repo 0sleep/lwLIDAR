@@ -1,0 +1,4 @@
+viser
+numpy
+numpy-quaternion
+zeroconf

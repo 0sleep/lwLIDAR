@@ -1,0 +1,31 @@
+dependencies:
+  espressif/mdns:
+    component_hash: 1ebe3bd675bb9d1c58f52bc0b609b32f74e572b01c328f9e61282040c775495c
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.0'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.11.0
+  idf:
+    source:
+      type: idf
+    version: 5.5.1
+  rjrp44/vl53l8cx:
+    component_hash: 453314712a3e36ae9c6c4c169943f3be9cc15579071f4afb2bb662faed669f7f
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.4'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 4.0.0
+direct_dependencies:
+- espressif/mdns
+- rjrp44/vl53l8cx
+manifest_hash: 8b7ced919de6517fa218765453f5382d0c53b7edeada2af93bb726aeefd8c7fc
+target: esp32s3
+version: 2.0.0

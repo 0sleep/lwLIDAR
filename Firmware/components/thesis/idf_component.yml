@@ -1,0 +1,6 @@
+dependencies:
+  rjrp44/vl53l8cx:
+    version: '>=3.0.*'
+  espressif/mdns: '*'
+description: Abstraction layer so I don't have to deal with this mess
+version: 0.0.1

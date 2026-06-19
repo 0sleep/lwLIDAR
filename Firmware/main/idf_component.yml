@@ -1,0 +1,5 @@
+dependencies:
+  rjrp44/vl53l8cx:
+    version: '>=3.0.*'
+description: VL53L8CX basic ranging example
+version: 1.0.4

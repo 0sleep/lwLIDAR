@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "VL53L7CX")(type "KiCad")(uri "${KIPRJMOD}/Parts/ul_VL53L7CXV0GC-1/KiCADv6/2025-05-22_21-23-46.kicad_sym")(options "")(descr ""))
+  (lib (name "IO expander")(type "KiCad")(uri "${KIPRJMOD}/Parts/FXL6408UMX/FXL6408UMX.kicad_sym")(options "")(descr ""))
+  (lib (name "VL53L8CX")(type "KiCad")(uri "${KIPRJMOD}/Parts/ul_VL53L8CXV0GC-1/KiCADv6/2025-09-20_20-30-07.kicad_sym")(options "")(descr ""))
+)

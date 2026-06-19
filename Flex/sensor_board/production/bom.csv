@@ -1,0 +1,8 @@
+"Reference","Value","Datasheet","Footprint","Qty","DNP"
+"C1,C4,C7,C10,C13,C16,C19,C22","4.7uF","~","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","8",""
+"C2,C3,C5,C6,C8,C9,C11,C12,C14,C15,C17,C18,C20,C21,C23,C24","100nF","~","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","16",""
+"J1","Conn_01x10_Pin","~","FPC_Connector:Molex 10 Pin Flex 52207-1060","1",""
+"R1,R2","10k","~","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","2",""
+"R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37","47k","~","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","35",""
+"U1","FXL6408UMX","","IO expander:QFN40P260X180X55-16N","1",""
+"U2,U3,U4,U5,U6,U7,U8,U9","VL53L7CXV0GC/1","https://www.st.com/resource/en/datasheet/vl53l8cx.pdf","VL53L8CX:IC17_LGA16_STM","8",""

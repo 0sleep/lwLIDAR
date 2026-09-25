@@ -1724,12 +1724,6 @@
 		(uuid "fa513f3b-08e1-4c2f-9fd8-23a538ae8f33")
 	)
 	(junction
-		(at 88.9 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b923a84-056e-402e-a0c2-2a480447e4ef")
-	)
-	(junction
 		(at 34.29 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1752,6 +1746,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5fc53f5-46b4-4471-8034-9d5e462a689b")
+	)
+	(junction
+		(at 88.9 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f83dce2e-cf6d-46a1-a9f0-ed8879daff2e")
 	)
 	(no_connect
 		(at 299.72 24.13)
@@ -1793,6 +1793,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 26.67) (xy 88.9 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1895f780-8ca6-47c0-bc64-08c22d020b35")
+	)
+	(wire
+		(pts
 			(xy 90.17 38.1) (xy 105.41 38.1)
 		)
 		(stroke
@@ -1810,16 +1820,6 @@
 			(type default)
 		)
 		(uuid "25e2cb78-32bc-4d01-bc05-4d87dbff7c87")
-	)
-	(wire
-		(pts
-			(xy 87.63 27.94) (xy 88.9 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "340d245e-8ec3-4081-b3fb-4b3b28577d66")
 	)
 	(wire
 		(pts
@@ -1903,7 +1903,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 27.94) (xy 88.9 27.94)
+			(xy 87.63 27.94) (xy 88.9 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1940,16 +1940,6 @@
 			(type default)
 		)
 		(uuid "6e2af5dd-070c-45d1-8174-29dff0976351")
-	)
-	(wire
-		(pts
-			(xy 152.4 30.48) (xy 152.4 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "707342f6-f76a-4b1c-a3ea-7fc13cc5a717")
 	)
 	(wire
 		(pts
@@ -2023,6 +2013,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 26.67) (xy 152.4 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fbd0ed7-61ae-4255-820e-6fb26fee7c87")
+	)
+	(wire
+		(pts
 			(xy 78.74 130.81) (xy 81.28 130.81)
 		)
 		(stroke
@@ -2030,6 +2030,16 @@
 			(type default)
 		)
 		(uuid "9b4b055d-f1e5-41a8-a9d1-bbc02e275c7f")
+	)
+	(wire
+		(pts
+			(xy 88.9 27.94) (xy 90.17 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e580b6a-1a74-4948-b804-58b0e1d14f7a")
 	)
 	(wire
 		(pts
@@ -2549,6 +2559,28 @@
 			)
 		)
 	)
+	(global_label "IOVDD_Sensor"
+		(shape input)
+		(at 88.9 26.67 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34ed5ea6-b50b-4ed7-8dfd-4cd3a9ceb5ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 10.7429 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDD_Sensor"
 		(shape input)
 		(at 17.78 26.67 270)
@@ -2945,6 +2977,50 @@
 			)
 		)
 	)
+	(global_label "IOVDD_Sensor"
+		(shape input)
+		(at 152.4 26.67 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbd01602-68e4-48c6-8221-b89802042596")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 10.7429 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IOVDD_Sensor"
+		(shape input)
+		(at 43.18 22.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cefb50fe-f733-434d-9005-1d0d0ea2c491")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 6.9329 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LPN_1"
 		(shape input)
 		(at 102.87 45.72 180)
@@ -3094,7 +3170,7 @@
 			(uuid "5be4d9f0-7dfd-432f-a720-b4f811f58a6c")
 		)
 		(instances
-			(project ""
+			(project "sensor_board"
 				(path "/0aab041b-5c58-434e-8927-597b1c07260b"
 					(reference "R1")
 					(unit 1)
@@ -3186,7 +3262,7 @@
 			(uuid "81c329ab-93c8-4676-a03c-ac30d70d2287")
 		)
 		(instances
-			(project ""
+			(project "sensor_board"
 				(path "/0aab041b-5c58-434e-8927-597b1c07260b"
 					(reference "J1")
 					(unit 1)
@@ -3256,7 +3332,7 @@
 			(uuid "8d9099fa-c34a-4fde-9f06-9916f912cc10")
 		)
 		(instances
-			(project ""
+			(project "sensor_board"
 				(path "/0aab041b-5c58-434e-8927-597b1c07260b"
 					(reference "R3")
 					(unit 1)
@@ -3334,72 +3410,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 152.4 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53d36a25-444a-4d6b-8511-e73f96ff6495")
-		(property "Reference" "#PWR06"
-			(at 152.4 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 152.4 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 152.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "772b9eba-12c5-4912-b76a-cd67d4cb78a0")
-		)
-		(instances
-			(project ""
-				(path "/0aab041b-5c58-434e-8927-597b1c07260b"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 87.63 31.75 0)
 		(unit 1)
@@ -3460,141 +3470,9 @@
 			(uuid "f208e7c7-dd12-4a01-bebf-def7dbe670c9")
 		)
 		(instances
-			(project ""
+			(project "sensor_board"
 				(path "/0aab041b-5c58-434e-8927-597b1c07260b"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 43.18 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64daee2d-e47d-4a7f-9d1e-921eec6de8ec")
-		(property "Reference" "#PWR04"
-			(at 43.18 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 43.18 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 43.18 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a97e9fb-52c8-48ae-bc90-ce2b50c95d6b")
-		)
-		(instances
-			(project ""
-				(path "/0aab041b-5c58-434e-8927-597b1c07260b"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 88.9 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7cec4f44-5f8b-4380-8e59-8827eabe243e")
-		(property "Reference" "#PWR05"
-			(at 88.9 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 88.9 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 88.9 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e88877b7-c1c0-4ea6-83b8-acfe9f1f72a4")
-		)
-		(instances
-			(project ""
-				(path "/0aab041b-5c58-434e-8927-597b1c07260b"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3658,7 +3536,7 @@
 			(uuid "a24dc6a7-c5aa-4021-9b74-f8f6ae1000b0")
 		)
 		(instances
-			(project ""
+			(project "sensor_board"
 				(path "/0aab041b-5c58-434e-8927-597b1c07260b"
 					(reference "#PWR07")
 					(unit 1)
@@ -3724,7 +3602,7 @@
 			(uuid "322516fb-e6e6-4aea-a787-02c84b512e50")
 		)
 		(instances
-			(project ""
+			(project "sensor_board"
 				(path "/0aab041b-5c58-434e-8927-597b1c07260b"
 					(reference "#PWR03")
 					(unit 1)
@@ -3794,7 +3672,7 @@
 			(uuid "7f987bee-52b1-4a04-bf5b-a2e416c88743")
 		)
 		(instances
-			(project ""
+			(project "sensor_board"
 				(path "/0aab041b-5c58-434e-8927-597b1c07260b"
 					(reference "R2")
 					(unit 1)
@@ -3976,7 +3854,7 @@
 			(uuid "a00063c3-8cab-4b72-a8b6-a524e7e83055")
 		)
 		(instances
-			(project ""
+			(project "sensor_board"
 				(path "/0aab041b-5c58-434e-8927-597b1c07260b"
 					(reference "U1")
 					(unit 1)
@@ -4042,7 +3920,7 @@
 			(uuid "9758492c-7cb4-41cd-95ed-657624aaac24")
 		)
 		(instances
-			(project ""
+			(project "sensor_board"
 				(path "/0aab041b-5c58-434e-8927-597b1c07260b"
 					(reference "#PWR02")
 					(unit 1)
@@ -4108,7 +3986,7 @@
 			(uuid "0d81b7c8-3514-4865-b230-2bd3eb36b708")
 		)
 		(instances
-			(project ""
+			(project "sensor_board"
 				(path "/0aab041b-5c58-434e-8927-597b1c07260b"
 					(reference "#PWR01")
 					(unit 1)
